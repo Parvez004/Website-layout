@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-album{
+    border: 2px solid darkslategrey;
+    height: 300px;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.photo-frame{
+    height: 300px;
+    width: 100%;
+}
+.photo-frame img{
+    height: 300px;
+    width: 100%;
+}
+.photo-album .pic-detail{
+    position: absolute;
+    width: 400px;
+    top: 55px;
+    display: none;
+    color: rgb(237, 235, 232);
+    background-color: rgba(245, 245, 220, 0.477);
+}
+.photo-album h3{
+    position: absolute;
+    width: 160px;
+    top: 0px;
+    display: none;
+    background-color: black;
+    color: azure;
+}
+.photo-album:hover .pic-detail{
+    display: block;
+}
+.photo-album:hover h3{
+    display: block;
+}
+
+
